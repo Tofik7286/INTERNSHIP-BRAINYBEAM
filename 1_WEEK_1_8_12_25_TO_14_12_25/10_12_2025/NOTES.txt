@@ -1,0 +1,65 @@
+Video Details 
+	-> Task ID : 2554
+	-> title : Data science introduction 
+
+
+
+Notes:
+
+1. What is data scince?
+-> data science is about data gathering , analysing and decision-making.
+-> Data science is about finding patterns in data, through proper analysis & by making future Predictions for data.
+-> By using Data Science companies are able to make :-
+	1. Better decisions (should we choose A or B)
+	2. Predictive analysis (What will happen next)
+	3. Pattern discoveries (Make pattern or finding hidden information)
+
+2. Importance of Data Science.
+-> Data science is a deep study of the massive amount of data, which involves extracting meaningful insights from raw, structured, and     
+   unstructured data that is processed using the scientific method, different technologies, and algorithms.
+-> As organizations are generating and storing more and more data, they are looking to hire professionals who can dig into this 
+   overwhelming amount of Data to derive valuable insights that can help drive business decisions.Data Scientist are one of the highest   
+   paid professionals across the industries . As per LinkedIn job reports, the Data Science industry is expected to grow from 37.9 billion
+   USD in 2019 to 230 billion USD by 2026.
+
+3. Roadmap of data science.
+-> 
+	1. Prerequisites:
+		Educational Background: Most data scientists have at least a bachelor's degree in a quantitative field such as computer science,
+		statistics, mathematics, physics, engineering, or a related field. Some have advanced degrees (master's or Ph.D.) as well.
+
+		Programming Skills: Develop proficiency in programming languages such as Python or R, which are commonly used in data
+		science.
+
+	2. Learn the Basics:
+
+		Mathematics and Statistics: Build a strong foundation in linear algebra, calculus, probability, and statistics. Topics like hypothesis testing, regression analysis, and 		Bayesian statistics are particularly important.
+
+		Data Manipulation: Learn how to work with data using libraries like Pandas (Python) or dplyr (R).
+
+	3. Data Visualization:
+
+		Learn data visualization techniques using libraries like Matplotlib, Seaborn (Python) or ggplot2 (R).
+		Visualization is important for exploring and presenting data effectively.
+
+	4. Data Preprocessing:
+
+		Learn how to clean, preprocess, and transform data for analysis. This includes handling missing values, scaling, and encoding categorical variables.
+
+	5. Machine Learning:
+
+		Understand the fundamentals of machine learning, including supervised and unsupervised learning, classification, regression, clustering, and more.
+
+		Explore popular machine learning libraries like scikit-learn (Python) or caret (R).
+
+	6. Deep Learning (Optional):
+
+		If interested in deep learning, delve into neural networks and deep learning frameworks like TensorFlow or PyTorch.
+	
+	7. SQL and Databases:
+
+		Gain proficiency in SQL to query and manipulate relational databases, as data scientists often work with large datasets stored in databases.
+
+	8. Big Data Technologies (Optional):
+
+		Familiarize yourself with big data technologies such as Hadoop and Spark, especially if you plan to work with large-scale data.
