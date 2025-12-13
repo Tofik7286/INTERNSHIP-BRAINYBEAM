@@ -1,0 +1,57 @@
+What is ydata-Profiling?
+
+    YData Profiling (formerly known as "Pandas Profiling") is a tool that helps you quickly understand the data in your dataset. It generates a detailed, visual report of the data, showing things like:
+
+    Data types (e.g., numerical, categorical)
+    Basic statistics (e.g., mean, median, min, max, standard deviation)
+    Missing values (which columns have missing data, and how much)
+    Correlations (how different columns are related to each other)
+    Distributions (how values are spread across columns, with charts like histograms)
+    Outliers (values that are much higher or lower than most others)
+
+    This tool helps you get to know your data fast, making it easier to identify patterns, spot issues like missing data, or outliers, and decide what cleaning or transformations might be needed before deeper analysis or machine learning.
+
+    In short, YData Profiling is like a "health check" for your dataset. It saves you time and gives you a good overview without you having to manually compute each statistic or visualization.
+
+
+If you get error like module not found. go to pypi.org. search that module name copy it and paste it into your terminal. it will download that module into your system.
+
+
+
+What is inside report
+
+overview
+    Dataset statistic
+        1. Number of variables: 12
+            -> it means total no. of columns
+        2. Number of observation
+            -> it means total no. of rows
+        3. Missing cells
+            -> it means total missing values means
+                total rows * total columns
+        4. Missing cells %
+            -> missing cells in %
+        5. Duplicate rows
+            -> total no. of duplicate rows
+
+    Variable types
+        1. Numeric
+        2. categorical :this variable has more unique values 
+        3. text
+
+Alerts
+
+    it will show you alert of your data set
+    it includes :
+     which column is highly correlated with which column
+     which column has more unique values in %  
+     and more
+
+Reproduction
+    In this section of report includes details of where analysis stated , ended, which software were used, download configuration etc.
+
+
+In variables
+
+     real number : it is numeric 
+     

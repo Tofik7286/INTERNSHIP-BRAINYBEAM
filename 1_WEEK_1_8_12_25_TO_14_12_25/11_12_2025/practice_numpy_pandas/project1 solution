@@ -1,0 +1,95 @@
+# 1. Import the libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 2. Import the dataset
+df = pd.read_csv("pokemon_data.csv")
+
+# -----------------------
+# Data Exploration
+# -----------------------
+
+# 3. Display the data
+print(df)
+
+# 4. Display duplicate rows
+print(df[df.duplicated()])
+
+# 5. Delete duplicate rows
+df = df.drop_duplicates()
+
+# 6. Rename “#” column to “S. No.”
+df = df.rename(columns={"#": "S. No."})
+
+# 7. Display first and last five rows.
+print(df.head())
+print(df.tail())
+
+# 8. Display datatype of the columns
+print(df.dtypes)
+
+# 9. Find duplicate values of column named S. No.
+print(df[df["S. No."].duplicated()])
+
+# 10. Find unique values in all the columns
+for col in df.columns:
+    print(f"Unique in {col}:", df[col].unique())
+
+# 11. Replace ‘VenusaurMega Venusaur' to 'Venusaur’
+df["Name"] = df["Name"].replace("VenusaurMega Venusaur", "Venusaur")
+
+# 12. Display only three columns Type1, Type2, HP
+print(df[["Type 1", "Type 2", "HP"]])
+
+# 13. Print rows 0 to 4 using loc
+print(df.loc[0:4])
+
+# 14. Print 4th value from each column
+print(df.iloc[3])
+
+# 15. Print all values of Name column with index
+print(df["Name"])
+
+# 16. Display rows where Type 1 = Grass
+print(df[df["Type 1"] == "Grass"])
+
+# 17. Print value of first row and first column (1,1)
+print(df.iloc[0, 0])
+
+# 18. Sort values of Type 1 and HP
+print(df.sort_values(['Type 1', 'HP']))
+
+# 19. Add columns from 4 to 10 and store in ‘Total’
+df["Total"] = df.iloc[:, 4:11].sum(axis=1)
+print(df)
+
+# -----------------------
+# Data Cleaning
+# -----------------------
+
+# 20. Plot scatter graph to show outliers in HP column
+plt.figure(figsize=(6,4))
+plt.scatter(df.index, df["HP"])
+plt.title("HP Outlier Detection")
+plt.xlabel("Index")
+plt.ylabel("HP")
+plt.show()
+
+# 21. Remove outliers using IQR
+Q1 = df["HP"].quantile(0.25)
+Q3 = df["HP"].quantile(0.75)
+IQR = Q3 - Q1
+df = df[(df["HP"] >= Q1 - 1.5*IQR) & (df["HP"] <= Q3 + 1.5*IQR)]
+
+# 22. Display number of null values in each column
+print(df.isnull().sum())
+
+# 23. Replace null with most frequent value (mode)
+for col in df.columns:
+    df[col] = df[col].fillna(df[col].mode()[0])
+
+# 24. Download the cleaned data
+df.to_csv("pokemon_cleaned.csv", index=False)
+print("pokemon_cleaned.csv saved!")

@@ -1,0 +1,23 @@
+What we've learned today?
+
+1. completed 3 videos ✅
+	
+video 1
+	-> Data science introduction.
+		- what is data science
+		- introduction to data science
+		- roadmap of data science
+	-> SIDE BY SIDE IMPLEMENTATION ALSO DONE
+
+video 2
+	-> NumPy practical
+		- learn basic functions and implemented it 
+
+	-> SIDE BY SIDE IMPLEMENTATION ALSO DONE
+
+
+video 3
+	-> Pandas practical
+		- learn basic functions and implemented it 
+
+	-> SIDE BY SIDE IMPLEMENTATION ALSO DONE

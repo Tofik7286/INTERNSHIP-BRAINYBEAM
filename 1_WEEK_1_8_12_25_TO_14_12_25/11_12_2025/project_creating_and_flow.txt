@@ -1,0 +1,160 @@
+1. Title
+
+    A clear and descriptive title for your project.
+
+2. Introduction
+
+    Background / context
+
+    Description of the project
+
+    Problem statement
+
+    Expected outcomes
+
+    Objectives
+
+    Scope and limitations
+
+3. Data Collection
+
+    Describe the dataset(s)
+
+    Source of the data (CSV, API, scraping, database, etc.)
+
+    Basic metadata (size, number of features, etc.)
+
+4. Exploratory Data Analysis (EDA)
+    4.1 Import Required Libraries
+        import pandas as pd
+        import numpy as np
+        import matplotlib.pyplot as plt
+        import seaborn as sns
+
+    4.2 Load Dataset
+
+        Load data from CSV, Excel, SQL, etc.
+
+    4.3 Initial Data Inspection
+
+        head(), tail(), info(), describe()
+
+        Check data types
+
+        Check dataset shape
+
+    4.4 Data Cleaning
+
+        Remove duplicates
+
+        Handle missing values
+
+        Fix wrong data types
+
+
+    4.5 Data Visualization
+
+        Use:
+
+        Matplotlib
+
+        Seaborn
+            Examples:
+
+            Distribution plots
+
+            Boxplots
+
+            Heatmaps
+
+            Scatter plots
+
+            Pairplots
+
+    4.6 Insights from EDA
+
+        Summarize patterns found
+
+        Highlight important correlations
+
+        Identify anomalies and trends
+
+
+5. Data Preprocessing
+    5.1 Encoding
+
+        Convert categorical/string columns to numeric
+
+        One-Hot Encoding
+
+        Label Encoding
+
+    5.2 Feature Engineering
+
+        Create new features
+
+        Select important features
+
+    5.3 Train–Test Split
+
+        Split the dataset into training and testing sets
+
+        from sklearn.model_selection import train_test_split
+
+    5.4 Feature Scaling
+
+        Apply scaling after splitting (to avoid data leakage)
+
+        StandardScaler
+
+        MinMaxScaler
+
+6. Machine Learning Modeling
+    
+    6.1 Model Selection
+
+        Choose appropriate model(s)
+
+        Classification: Logistic Regression, SVM, Random Forest
+
+        Regression: Linear Regression, XGBoost
+
+        Clustering: KMeans
+
+    6.2 Model Training
+
+        Fit model with training data
+
+    6.3 Model Evaluation
+
+        Accuracy, F1-score (classification)
+
+        RMSE, MAE (regression)
+
+        Confusion matrix
+
+        ROC-AUC
+
+    6.4 Hyperparameter Tuning
+
+        GridSearchCV
+
+        RandomizedSearchCV
+
+    6.5 Model Comparison
+
+        Compare performance of different models
+
+7. Conclusion
+
+    Summary of findings
+
+    Final model performance
+
+    Key insights from EDA
+
+    Business or practical implications
+
+    Limitations
+
+    Suggestions for future work

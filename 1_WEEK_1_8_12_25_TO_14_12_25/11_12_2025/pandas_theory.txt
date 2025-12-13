@@ -1,0 +1,16 @@
+
+1. what is pandas
+    Pandas is an open-source library that is built on top of NumPy library. It is a
+    Python package that offers various data structures and operations for
+    manipulating numerical data and time series. It is mainly popular for importing
+    and analyzing data much easier. Pandas is fast and it has high-performance &
+    productivity for users.
+    · Pandas main data structure:
+        -> Dataframe
+        -> Series
+
+2. Where we can use pandas?
+-> Analyzing ,Cleaning ,Exploration & Manipulation of data using Pandas
+   - Pandas is a popular open-source data analysis library for the Python programming language. It 
+     is designed to handle structured data and provides powerful data manipulation and analysis capabilities.
+   - With Pandas, you can easily read in and write out data from various formats such as CSV,  Excel,  SQL databases, and more. It also provides a range of functions for cleaning and transforming data, handlina missina values. and handling Date Time data.

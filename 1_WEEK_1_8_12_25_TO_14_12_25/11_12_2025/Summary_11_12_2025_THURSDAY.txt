@@ -1,0 +1,38 @@
+What we have learned today?
+
+3 videos are completed ✅
+
+video 1
+    -> numpy complition and data science project flow explanation
+
+            explored more functions of NumPy. 
+                - Indexing 
+                - Slicing
+                - Mathematical Operation (min,max etc.)
+                - Statistical function (mean,median,mode,sin,cos etc.)
+
+    -> SIDE BY SIDE IMPLEMENTATION ALSO DONE
+
+video 2
+
+    -> Pandas completion and Project flow explanation
+
+        completed pandas topics covered
+            - null values
+            - dropping columns
+            - drop null values
+            - remove duplicates
+            - some Statistical function (sin,cos,mean,median)
+
+        learned workflow of project
+            from title to Conclusion
+    -> SIDE BY SIDE IMPLEMENTATION ALSO DONE
+
+video 3
+    ->  how to use ai in data analytics
+	
+	- Learned how to use AI in data science for writing comprehensive description, project explanation, objective etc.
+	- How to write code explanation with the help of AI.
+
+	
+
