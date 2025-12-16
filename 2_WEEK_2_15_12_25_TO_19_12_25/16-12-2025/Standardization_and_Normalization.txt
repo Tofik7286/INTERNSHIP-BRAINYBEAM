@@ -1,0 +1,14 @@
+Standardization and Normalizations are scaling techniques.
+
+There are two types of methods
+    1. StandardScaler
+
+        from sklearn.preprocessing import StandardScaler
+        - train data is not always fitted so we have to fit it using ss.fit(x_train)
+            - ss is variable name
+            - fit is StandardScaler method 
+            - x_train is also variable 
+            once the data is fit we can easily transform it.
+            
+    2. MinMaxScaler
+

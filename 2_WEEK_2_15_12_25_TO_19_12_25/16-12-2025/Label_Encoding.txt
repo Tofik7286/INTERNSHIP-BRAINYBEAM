@@ -1,0 +1,23 @@
+Label Encoding: Encoding Techniques- Label Encoding & One-hot Encoder
+
+
+1. Label Encoding
+. Label Encoding is a technique used to convert categorical data into numerical data.
+. It assigns a unique numerical value to each category present in the categorical variable.
+. It is useful for ordinal categorical data, where the categories have a natural ordering, such as small, medium, large.
+. Label Encoding can lead to the false assumption of a natural ordering between categories, which can affect the performance of certain machine learning algorithms.
+. It is straightforward to implement and can be easily used in a variety of machine learning models.
+
+
+2. One-Hot Encoding:
+· One-Hot Encoding is a technique used to convert categorical data into a
+binary representation.
+. It creates a new.binary column for each category present in the categorical
+variable and assigns a value of 1 to the corresponding column for each
+observation.
+. One-Hot Encoding avoids the false assumption of a natural ordering between
+categories, and it can be easily used in a variety of machine learning models.
+. However, One-Hot Encoding can lead to the curse of dimensionality, where
+the number of features increases significantly when there are many
+categories, which can affect the performance of some machine learning
+algorithms.

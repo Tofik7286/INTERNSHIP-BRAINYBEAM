@@ -1,0 +1,16 @@
+videos complete = 4 ✅ 
+ Encoding techniques
+Presentation - 1
+Presentation - 2
+Standardization & Normalization
+
+
+
+
+Learned Encoding Techniques
+
+	1. LabelEncoding
+		
+	2. OneHotEncoding
+
+Standardization  and Normalization 
