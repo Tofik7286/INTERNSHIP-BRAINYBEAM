@@ -1,0 +1,4 @@
+3 videos completed
+	1. introduction
+	2. python introduction
+	3. python setup

@@ -1,0 +1,7 @@
+completed 3 videos
+	1. Python core
+	2. Python Examples
+	3. Operators
+	4. if else introduction remaining
+	5. revision & nested if else 
+	6. python core last lecture
